@@ -5,13 +5,16 @@ This directory contains raw NEEM data files for shaking motion used for sprinkli
 https://data.open-ease.org/QA?neem_id=641064a2ba2ba183b56ca0de
 
 ## Queries to visualize NEEM on openEASE
-1. findall([Duration, Evt],
+1. Get the maximum event that happened during the experiment.
+
+```prolog
+findall([Duration, Evt],
   (  event_interval(Evt, Begin, End),
      number(End),
      Duration is End - Begin
   ),
   Durations),
 max_member([MaxDuration, LongestEvt], Durations)
-
+```
 
 
