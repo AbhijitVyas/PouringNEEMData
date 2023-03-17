@@ -1,5 +1,5 @@
 # Pouring NEEM
-This directory contains raw NEEM data files for pouring particles into a bowl.
+Directory contains raw NEEM data files for pouring particles into a bowl.
 
 ## Link to visualize NEEM on openEASE
 https://data.open-ease.org/QA?neem_id=6319e5d9ff9544481f48ac9b
