@@ -1,6 +1,9 @@
 # Pouring VR experiment data
 Repository contains all raw NEEM data files that were recorded from VR environment.
 
+## Watch how to query NEEMs on openEASE platform
+https://user-images.githubusercontent.com/17174958/225921309-f2780105-dfd6-40e4-97f8-ceb4a8385fe4.mp4
+
 ## Queries to visualize NEEM on openEASE
 1. What is the longest event that occurred?
 
