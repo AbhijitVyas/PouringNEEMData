@@ -6,6 +6,5 @@ We consider tilting motion which classifies pouring action.
 https://data.open-ease.org/QA?neem_id=6411e70a3cf55ecbffe2e51a
 
 ## Watch Recorded episode
-
-[![Watch the video](https://i9.ytimg.com/vi_webp/okBOwBM03rk/mq1.webp?sqp=CMi60aAG-oaymwEmCMACELQB8quKqQMa8AEB-AH6CIAC0AWKAgwIABABGGwgbChsMA8=&rs=AOn4CLANlpLl7EGKa8rIvzLScYx4yK4GeA)](https://youtu.be/okBOwBM03rk)
+https://user-images.githubusercontent.com/17174958/225923525-9f3b0133-3286-4585-a231-7657b2de0304.mp4
 
