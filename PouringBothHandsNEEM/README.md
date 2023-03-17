@@ -1,4 +1,4 @@
-# Pouring NEEM with two hands NEEM data
+# Pouring NEEM with two hands
 This directory contains raw NEEM data files for pouring particles with both hands into a bowl.
 
 ## Link to visualize NEEM on openEASE
