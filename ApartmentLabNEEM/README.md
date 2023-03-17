@@ -1,5 +1,6 @@
 # Pouring NEEM
 Directory contains raw NEEM data files for pouring particles into a bowl.
+We consider tilting motion which classifies pouring action.
 
 ## Link to visualize NEEM on openEASE
 https://data.open-ease.org/QA?neem_id=63d93736bc1f60335b4418d7

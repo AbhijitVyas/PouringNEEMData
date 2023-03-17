@@ -1,5 +1,6 @@
 # Shaking motion NEEM data
 Directory contains raw NEEM data files for sprinkling salt on top of breakfast dish.
+We consider shaking motion which classifies pouring action.
 
 ## Link to visualize NEEM on openEASE
 https://data.open-ease.org/QA?neem_id=641064a2ba2ba183b56ca0de

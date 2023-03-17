@@ -1,5 +1,5 @@
 # Pouring VR experiment data
-Repository contains all raw NEEM data files that were recorded from RobCog VR environment.
+Repository contains all raw NEEM data files that were recorded from VR environment.
 
 ## Queries to visualize NEEM on openEASE
 1. What is the longest event that occurred?
