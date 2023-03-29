@@ -73,7 +73,7 @@ triple(Obj, dul:'hasRole', Role),
 triple(Obj, dul:'hasRegion', Region), 
 triple(Region, 'http://www.ease-crc.org/ont/SOMA-OBJ.owl#hasJointPositionMin', AngleMin).
 ```
-9. What is the role of the substance during pouring?
+9. What is the pouring substance and its role?
 
 ```prolog
 has_type(Tsk, 'http://www.ease-crc.org/ont/SOMA-ACT.owl#Pouring'),
