@@ -73,12 +73,13 @@ triple(Obj, dul:'hasRole', Role),
 triple(Obj, dul:'hasRegion', Region), 
 triple(Region, 'http://www.ease-crc.org/ont/SOMA-OBJ.owl#hasJointPositionMin', AngleMin).
 ```
-9. What is the pouring substance and its role?
+9. Find pouring substance with its role and the quantity.
 
 ```prolog
-has_type(Tsk, 'http://www.ease-crc.org/ont/SOMA-ACT.owl#Pouring'),
-executes_task(Act, Tsk), has_participant(Act, Obj), 
-has_type(Obj, dul:'Substance'), triple(Obj, dul:'hasRole', Role).
+findall([Obj, Role],
+  (  has_type(Tsk, 'http://www.ease-crc.org/ont/SOMA-ACT.owl#Pouring'),
+	executes_task(Act, Tsk), has_participant(Act, Obj), 
+	has_type(Obj, dul:'Substance'), triple(Obj, dul:'hasRole', Role)
+  ),
+Objects), length(Objects, Quantity)
 ```
-
-10. How many particles participated during pouring?
