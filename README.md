@@ -35,7 +35,8 @@ triple(Obj, dul:'hasRole', Role).
 4. How long pouring lasted?
 ```prolog
 has_type(Tsk, 'http://www.ease-crc.org/ont/SOMA-ACT.owl#Pouring'),
-executes_task(Act, Tsk), event_interval(Act, Begin, End).
+executes_task(Act, Tsk), event_interval(Act, Begin, End), 
+Duration is End - Begin.
 ```
 
 5. Which hands participated during pouring?
